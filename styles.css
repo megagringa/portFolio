@@ -233,6 +233,11 @@
         margin-left: 10px;
     }
 
+    .project img {
+        width: 60%;
+        height: 100%;
+    }
+
     #footer .logo {
         flex-grow: 1;
         order: 1;
