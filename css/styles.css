@@ -39,6 +39,7 @@
     height: auto;
     display: block;
     margin: 0 auto; /* Centra horizontalmente */
+    border-radius: 25px;
 }
 
 #about p {
@@ -223,62 +224,3 @@
     color: #444;
 }
 
-@media (max-width: 1349px) {
-    #header {
-        text-align: center;
-    }
-
-    #menu > ul {
-        margin-top: 20px;
-        align-items: flex-start;
-        justify-content: space-evenly;
-    }
-
-    #footer .logo {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 646px) {
-    #content {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    #aside {
-        margin-right: 0;
-    }
-
-    .port_charla {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .project {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
-    #footer .logo {
-        flex-grow: 1;
-        order: 1;
-        flex-basis: 100%;
-        text-align: center;
-        margin: 0;
-        font-size: 15px;
-    }
-    
-    #footer .info {
-        flex-grow: 1;
-        order: 2;
-        margin-left: 20px;
-        color: #444;
-        flex-basis: 100%;
-        text-align: center;
-        margin: 0;
-    }
-}
