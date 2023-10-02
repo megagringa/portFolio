@@ -1,4 +1,6 @@
 /* Estilos generales */
+@import url(root.css);
+
 * {
     text-decoration: none;
     margin: 0;
@@ -10,8 +12,8 @@
     width: 90%;
     height: auto;
     margin: 0 auto;
-    border: 1px solid rgba(225, 225, 226, 0.8);
-    box-shadow: 0px 0px 10px #ccc;
+    border: 1px solid var(--border);
+    box-shadow: 0px 0px 10px var(--box);
     margin-top: 40px;
     margin-bottom: 40px;
     min-height: 600px;
@@ -21,17 +23,17 @@
     margin: 50px auto;
     max-width: 800px;
     padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    background-color: var(--background);
+    border: 1px solid var(--border-2);
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px var(--shadow);
     text-align: center; /* Centra todo el contenido horizontalmente */
 }
 
 #about h2 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #333;
+    color: var(--main-black);
 }
 
 #about img {
@@ -45,7 +47,7 @@
 #about p {
     font-size: 16px;
     line-height: 1.6;
-    color: #555;
+    color: var(--color-parrafo);
 }
 
 /* Estilos del menú */
@@ -70,16 +72,16 @@
 #menu a {
     text-transform: uppercase;
     font-size: 12px;
-    color: #444;
+    color: var(--color--b);
     transition: all 300ms;
     border: 1px solid transparent; /* Añade un borde transparente inicialmente */
     padding: 8px 15px; /* Aumenta el espacio alrededor del texto para un clic más fácil */
 }
 
 #menu a:hover {
-    background: #ccc;
-    color: white;
-    border: 1px solid #ccc; /* Muestra el borde al hacer hover */
+    background: var(--box);
+    color: var(--color--w);
+    border: 1px solid var(--box); /* Muestra el borde al hacer hover */
     border-radius: 5px; /* Añade bordes redondeados */
 }
 
@@ -93,8 +95,8 @@
     font-size: 35px;
     padding: 10px;
     margin-left: 20px;
-    color: black;
-    text-shadow: 1px 1px 0px #ccc;
+    color: var(--main-black);
+    text-shadow: 1px 1px 0px var(--box);
 }
 
 .logo h1 {
@@ -128,7 +130,7 @@
     flex-basis: 250px;
     margin-bottom: 50px;
     margin-right: 25px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--box);
 }
 
 .project img {
@@ -142,17 +144,17 @@
 
 .project-info a {
     font-size: 16px;
-    color: black;
+    color: var(--main-black);
     transition: all 300ms;
 }
 
 .project-info a:hover {
-    color: green;
+    color: var(--color--g);
 }
 
 .project-info p {
     font-size: 16px;
-    color: gray;
+    color: var(--color);
 }
 
 #aside {
@@ -169,10 +171,10 @@
     width: 100%;
     font-size: 18px;
     font-weight: 100;
-    color: #444;
+    color: var(--color--b);
     padding-bottom: 10px;
     margin-bottom: 20px;
-    border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+    border-bottom: 1px solid var(--border);
     text-align: center;
 }
 
@@ -187,16 +189,16 @@
 #aside a {
     display: block;
     padding: 20px;
-    background: #eee;
-    color: #444;
+    background: var(--background--color);
+    color: var(--color--b);
     text-align: center;
     text-transform: uppercase;
     transition: all 300ms;
 }
 
 #aside a:hover {
-    background: #444;
-    color: #eee;
+    background: var(--color--b);
+    color: var(--background--color);
 }
 
 #footer {
@@ -205,7 +207,7 @@
     justify-content: flex-start;
     height: 120px;
     align-items: center;
-    border-top: 1px solid rgba(225, 225, 226, 0.8);
+    border-top: 1px solid var(--border);
 }
 
 #footer .logo {
@@ -221,6 +223,5 @@
     flex-grow: 1;
     order: 1;
     margin-left: 70px;
-    color: #444;
+    color: var(--color--b);
 }
-

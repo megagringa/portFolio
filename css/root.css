@@ -1,0 +1,14 @@
+:root{
+    --border: rgba(225, 225, 226, 0.8);
+    --border-2: #ddd;
+    --main-black: #333;
+    --background: #f9f9f9;
+    --background-color: #eee;
+    --box: #ccc;
+    --color-parrafo: #555;
+    --color--b: #444;
+    --color--w: white;
+    --color--g: green;
+    --color--gr: grey;
+    --shadow: rgba(0, 0, 0, 0.1); 
+}
