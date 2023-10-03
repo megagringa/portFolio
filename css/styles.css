@@ -40,14 +40,18 @@
     max-width: 200px; /* Limita el ancho máximo a 200px */
     height: auto;
     display: block;
-    margin: 0 auto; /* Centra horizontalmente */
+    margin: 20px auto; /* Centra horizontalmente */
     border-radius: 25px;
 }
 
 #about p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
-    color: var(--color-parrafo);
+    color: var(--color-parrafo); 
+}
+
+.salto{
+    margin-top: 10px;
 }
 
 /* Estilos del menú */
