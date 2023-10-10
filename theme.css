@@ -1,0 +1,18 @@
+/* Estilos para el tema claro (predeterminado) */
+.light-theme {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilos para el tema oscuro */
+.dark-theme {
+    background-color: #333;
+    color: #f9f9f9;
+}
+
+/* Cambiar el color de los textos en el tema oscuro */
+.dark-theme .logo h1,
+.dark-theme #footer .logo,
+.dark-theme #footer .info {
+    color: #fff; /* Color blanco para los textos específicos */
+}

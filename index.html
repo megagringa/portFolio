@@ -4,12 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mí</title>
+    <title>PortFolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="theme-toggle.css">
+    <link rel="stylesheet" href="theme.css">
     <link rel="stylesheet" href="css/mediaquery.css">
 </head>
 
-<body>
+<body class="light-theme">
     <div id="container">
         <header id="header">
             <div class="logo">
@@ -21,11 +23,13 @@
                         <a href="cursos.html">Proyectos</a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/juan-pablo-lopez-965bba169/"
-                            target="_blank">Linkedin</a>
+                        <a href="https://www.linkedin.com/in/juan-pablo-lopez-965bba169/" target="_blank">Linkedin</a>
                     </li>
                     <li>
                         <a href="https://github.com/megagringa" target="_blank">GITHUB</a>
+                    </li>
+                    <li>
+                        <button class="theme-toggle" id="theme-toggle">OSCURO</button>
                     </li>
                 </ul>
             </nav>
@@ -34,7 +38,8 @@
             <div id="about">
                 <h2>Sobre Mí:</h2>
                 <img src="img/yo.jpg" alt="Mi Foto" />
-                <p>Hola, soy Juan Pablo López, un apasionado desarrollador web con experiencia en tecnologías Full Stack.</p> 
+                <p>Hola, soy Juan Pablo López, un apasionado desarrollador web con experiencia en tecnologías Full
+                    Stack.</p>
                 <p>Estoy trabajando en proyectos, desde aplicaciones web hasta sitios interactivos.</p>
                 <p> busco oportunidades para aprender y mejorar mis habilidades en el mundo del desarrollo.</p>
                 <p>Ahora mismo estoy en busca de mi primer trabajo IT.</p>
@@ -47,6 +52,7 @@
         <div class="logo">PortFolio</div>
         <div class="info">Juan Pablo Lopez</div>
     </footer>
+    <script src="theme-toggle.js"></script>
 </body>
 
 </html>

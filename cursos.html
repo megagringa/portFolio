@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="theme-toggle.css">
+    <link rel="stylesheet" href="theme.css">
     <link rel="stylesheet" href="css/mediaquery.css">
 </head>
-<body>
+<body class="light-theme">
     <div id="container">
         <header id="header">
             <div class="logo">
@@ -23,6 +25,9 @@
                     </li>
                     <li>
                         <a href="https://github.com/megagringa" target="_blank">GITHUB</a>
+                    </li>
+                    <li>
+                        <button class="theme-toggle" id="theme-toggle">OSCURO</button>
                     </li>
                 </ul>
             </nav>
@@ -71,5 +76,6 @@
         <div class="logo">PortFolio</div>
         <div class="info">Juan Pablo Lopez</div>
     </footer>
+    <script src="theme-toggle.js"></script>
 </body>
 </html>

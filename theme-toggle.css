@@ -1,0 +1,19 @@
+/* Estilos para el botón Cambiar Tema Oscuro */
+.theme-toggle {
+    background-color: transparent; /* Fondo transparente por defecto */
+    border: 1px solid #444; /* Borde con color de fondo transparente */
+    color: #444; /* Color de texto oscuro por defecto */
+    padding: 4px 15px; /* Espaciado interior para el botón */
+    text-transform: uppercase;
+    font-size: 10px;
+    transition: all 300ms; /* Transición suave para cambios de estilo */
+    cursor: pointer; /* Cambia el cursor a una mano cuando pasas por encima */
+    margin-left: 10px; /* Espacio entre el botón y el enlace "GITHUB" */
+}
+
+/* Estilos para el botón Cambiar Tema Oscuro en estado de hover */
+.theme-toggle:hover {
+    background-color: #444; /* Cambia el fondo al color oscuro en hover */
+    color: #fff; /* Cambia el color de texto a blanco en hover */
+    border: 1px solid #fff; /* Cambia el borde a blanco en hover */
+}
