@@ -17,4 +17,5 @@
     background-color: var(--color--b); /* Cambia el fondo al color oscuro en hover */
     color: var(--white); /* Cambia el color de texto a blanco en hover */
     border: 1px solid var(--white); /* Cambia el borde a blanco en hover */
+    border-radius: 20px;
 }
