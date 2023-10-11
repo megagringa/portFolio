@@ -1,0 +1,26 @@
+@import url(root.css);
+/* Estilos para el tema claro (predeterminado) */
+.light-theme {
+    background-color: var(--background);
+    color: var(--main-black);
+}
+
+/* Estilos para el tema oscuro */
+.dark-theme {
+    background-color: var(--main-black);
+    color: var(--background);
+}
+
+/* Cambiar el color de los textos en el tema oscuro */
+.dark-theme #menu a,
+.dark-theme #menu button,
+.dark-theme .logo h1,
+.dark-theme #about p,
+.dark-theme #footer .logo,
+.dark-theme #footer .info {
+    color: var(--white); /* Color blanco para los textos específicos */
+}
+
+.dark-theme #about{
+    background-color: var(--color--gr);
+}
