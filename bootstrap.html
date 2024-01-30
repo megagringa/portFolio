@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/theme-toggle.css">
+    <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/mediaquery.css">
 </head>
 
@@ -26,6 +28,9 @@
                     <li>
                         <a href="https://github.com/megagringa" target="_blank">GITHUB</a>
                     </li>
+                    <li>
+                        <button class="theme-toggle" id="theme-toggle">OSCURO</button>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -33,6 +38,9 @@
             <aside id="aside">
                 <h2>BOOTSTRAP</h2>
                 <ul>
+                    <li>
+                        <a href="fullstack.html">Full Stack</a>
+                    </li>
                     <li>
                         <a href="cursos.html">Cursos</a>
                     </li>
@@ -43,14 +51,13 @@
 
                 <article class="project">
                     <div class="image-wrap">
-                        <a href="#"><img src="#"
-                                alt="Project Image"></a>
+                        <a href="https://github.com/megagringa/plantilla-Bootstrap"><img src="img/plantilla-boostrap.png" alt="Project Image"></a>
                     </div>
                     <div class="project-info">
-                        <a href="#">Curso FullStack de Egg</a>
-                        <p>Tecnologías:</p>
-                        <p>Back-End: .</p>
-                        <p>Front-End: .</p>
+                        <p>plantilla-Bootstrap</p>
+                        <a href="https://megagringa.github.io/plantilla-Bootstrap/index.html">DEMO</a>
+                        <p><a href="https://github.com/megagringa/plantilla-Bootstrap">GITHUB</a></p>
+                        <p>Front-End: Bootstrap.</p>
                     </div>
                 </article>
 
@@ -66,17 +73,6 @@
                     </div>
                 </article> -->
 
-                <!-- <article class="project">
-                    <div class="image-wrap">
-                        <a href="https://github.com/megagringa/FullStack_Egg_Curso"><img src="img/c_egg.png" alt="Project Image"></a>
-                    </div>
-                    <div class="project-info">
-                        <a href="https://github.com/megagringa/FullStack_Egg_Curso">Curso FullStack de Egg</a>
-                        <p>Tecnologías:</p>
-                        <p>Back-End: Java, SQL, JDBC, JPA.</p>
-                        <p>Front-End: HTML, CSS, JS.</p>
-                    </div>
-                </article> -->
             </div>
         </section>
     </div>
@@ -84,5 +80,8 @@
         <div class="logo">PortFolio</div>
         <div class="info">Juan Pablo Lopez</div>
     </footer>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/theme-toggle.js"></script>
 </body>
 </html>
