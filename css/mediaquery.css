@@ -15,6 +15,25 @@
 }
 
 @media (max-width: 646px) {
+
+    #menu ul {
+        flex-direction: row; /* Cambia la dirección del flexbox a fila para distribuir los elementos en dos columnas */
+        justify-content: center; /* Centra los elementos horizontalmente */
+        flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas */
+    }
+
+    #menu li {
+        flex: 0 0 50%; /* Establece el ancho de cada elemento del menú al 50% para que haya dos columnas */
+        max-width: 50%; /* Limita el ancho máximo de cada elemento al 50% */
+        box-sizing: border-box; /* Incluye el padding y el border en el ancho del elemento */
+        margin-bottom: 10px; /* Añade espacio entre los elementos del menú */
+    }
+
+    #menu a {
+        padding: 8px 15px; /* Ajusta el espaciado interior de los enlaces */
+    }
+
+
     #content {
         display: flex;
         flex-direction: column;
