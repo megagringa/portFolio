@@ -7,4 +7,4 @@ Me decidí por HTML/CSS/Js por ahora ya que todavía tengo mucho que aprender mi
 Tecnologías usadas en el armado del PortFolio:
 - Html
 - CSS.     
-- Js             
+- Js(Javascript)             
