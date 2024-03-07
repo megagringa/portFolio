@@ -17,10 +17,15 @@
 .dark-theme .logo h1,
 .dark-theme #about p,
 .dark-theme #footer .logo,
-.dark-theme #footer .info {
+.dark-theme #footer .info,
+.dark-theme #projects .project-info a {
     color: var(--white); /* Color blanco para los textos específicos */
 }
 
 .dark-theme #about{
     background-color: var(--color--gr);
+}
+
+.dark-theme #projects .project-info a:hover {
+    color: var(--color--g);
 }

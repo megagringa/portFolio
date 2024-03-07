@@ -7,15 +7,28 @@ class ThemeToggle {
 
     init() {
         this.themeToggle.addEventListener('click', () => this.toggleTheme());
+        this.loadTheme();
     }
 
     toggleTheme() {
         if (this.body.classList.contains('dark-theme')) {
-            this.body.classList.remove('dark-theme');
-            this.themeToggle.textContent = 'Oscuro';
+            this.setTheme('light', 'Oscuro');
         } else {
-            this.body.classList.add('dark-theme');
-            this.themeToggle.textContent = 'Claro';
+            this.setTheme('dark', 'Claro');
+        }
+    }
+
+    setTheme(theme, buttonText) {
+        this.body.classList.toggle('dark-theme', theme === 'dark');
+        this.themeToggle.textContent = buttonText;
+        document.cookie = `theme=${theme}; path=/`;
+    }
+
+    loadTheme() {
+        const themeCookie = document.cookie.split('; ').find(row => row.startsWith('theme='));
+        if (themeCookie) {
+            const theme = themeCookie.split('=')[1];
+            this.setTheme(theme, theme === 'dark' ? 'Claro' : 'Oscuro');
         }
     }
 }

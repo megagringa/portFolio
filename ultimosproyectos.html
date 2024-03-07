@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortFolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/theme-toggle.css">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/mediaquery.css">
 </head>
-
 <body class="light-theme">
     <div id="container">
         <header id="header">
@@ -20,7 +18,7 @@
             <nav id="menu">
                 <ul>
                     <li>
-                        <a href="ultimosproyectos.html">Proyectos</a>
+                        <a href="index.html">sobre mi</a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/juan-pablo-lopez-965bba169/" target="_blank">Linkedin</a>
@@ -35,16 +33,37 @@
             </nav>
         </header>
         <section id="content">
-            <div id="about">
-                <h2>Sobre Mí:</h2>
-                <img src="img/yo.jpg" alt="Mi Foto" />
-                <p>Hola, soy Juan Pablo López, un apasionado desarrollador web con experiencia en tecnologías Full
-                    Stack.</p>
-                <p>Estoy trabajando en proyectos, desde aplicaciones web hasta sitios interactivos.</p>
-                <p> busco oportunidades para aprender y mejorar mis habilidades en el mundo del desarrollo.</p>
-                <p>Ahora mismo estoy en busca de mi primer trabajo IT.</p>
-                <p class="salto"> Back-End: Java - SQL - JDBC - JPA - Spring Boot - Node.js. </p>
-                <p> Front-End: HTML - CSS - JS - Bootstrap - React.</p>
+            <aside id="aside">
+                <h2>ULTIMOS PROYECTOS</h2>
+                <ul>
+                    <li>
+                        <a href="proyectoscompartidos.html">PROYECT COMPARTIDOS</a></li>
+                    <li>
+                        <a href="cursos.html">CURSOS</a>
+                    </li>
+                    
+                    <li>
+                        <a href="bootstrap.html">BOOTSTRAP</a>
+                    </li>
+                    <li>
+                        <a href="fullstack.html">FULL STACK</a>
+                    </li>
+                </ul>
+            </aside>
+            <div id="projects">
+
+                <article class="project">
+                    <div class="image-wrap">
+                        <a href="https://codeweb101.github.io/CodeWeb101/index.html"><img src="img/CodeWeb101.png" alt="Project Image"></a>
+                    </div>
+                    <div class="project-info">
+                        <p>Mini Curso para principiantes.</p>
+                        <a href="https://codeweb101.github.io/CodeWeb101/index.html">DEMO</a>
+                        <p><a href="https://github.com/Codeweb101/CodeWeb101">GITHUB</a></p>
+                        <p>Back-End: - </p>
+                        <p>Front-End: HTML, CSS.</p>
+                    </div>
+                </article>
             </div>
         </section>
     </div>
@@ -56,5 +75,4 @@
     <script src="js/script.js"></script>
     <script src="js/theme-toggle.js"></script>
 </body>
-
 </html>
