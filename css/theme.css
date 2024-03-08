@@ -2,17 +2,21 @@
 /* Estilos para el tema claro (predeterminado) */
 .light-theme {
     background-color: var(--background);
-    color: var(--main-black);
+    color: var(--white);
 }
 
 /* Estilos para el tema oscuro */
 .dark-theme {
     background-color: var(--main-black);
     color: var(--background);
+
 }
 
 /* Cambiar el color de los textos en el tema oscuro */
+
 .dark-theme #menu a,
+.dark-theme #aside h2,
+.dark-theme #aside a,
 .dark-theme #menu button,
 .dark-theme .logo h1,
 .dark-theme #about p,

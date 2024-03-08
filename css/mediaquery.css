@@ -16,6 +16,9 @@
 
 @media (max-width: 646px) {
 
+    .logo h1{
+        font-size: 30px;
+    }
     #menu ul {
         flex-direction: row; /* Cambia la dirección del flexbox a fila para distribuir los elementos en dos columnas */
         justify-content: center; /* Centra los elementos horizontalmente */

@@ -173,7 +173,7 @@
 #aside h2 {
     display: block;
     width: 100%;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 100;
     color: var(--color--b);
     padding-bottom: 10px;
@@ -193,6 +193,7 @@
 #aside a {
     display: block;
     padding: 20px;
+    font-size: 15px;
     background: var(--background--color);
     color: var(--color--b);
     text-align: center;
