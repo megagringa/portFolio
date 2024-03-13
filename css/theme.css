@@ -2,7 +2,7 @@
 /* Estilos para el tema claro (predeterminado) */
 .light-theme {
     background-color: var(--background);
-    color: var(--white);
+    color: var(#333);
 }
 
 /* Estilos para el tema oscuro */
