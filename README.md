@@ -19,24 +19,25 @@ Tecnologías usadas en el armado del PortFolio:
 ```
 
 - portFolio
-    ┬
-    ├ css
-        ├ mediaquerry.css
-        ├ root.css
-        ├ styles.css
-        ├ theme-toogle.css
-        └ theme.css
-    ├ img
-        - Imagenes
-    └ js
-        ├ script.js
-        └ theme-toogle.js
-    -bootstrap.html
-    -cursos.html
-    -fullstack.html
-    -index.html
-    -proyectoscompartidos.html
-    -prueba.html
-    -ultimosproyectos.html
+    ├─ css
+    │   ├─ mediaquerry.css
+    │   ├─ root.css
+    │   ├─ styles.css
+    │   ├─ theme-toogle.css
+    │   └─ theme.css
+    ├─ img
+    │   ├─ Imagen1.png
+    │   ├─ Imagen2.png
+    │   └─ ...
+    ├─ js
+    │   ├─ script.js
+    │   └─ theme-toogle.js
+    ├─ bootstrap.html
+    ├─ cursos.html
+    ├─ fullstack.html
+    ├─ index.html
+    ├─ proyectoscompartidos.html
+    ├─ prueba.html
+    └─ ultimosproyectos.html
 
 ```    
