@@ -3,7 +3,8 @@
 ---
 
 PortFolio con proyectos tanto de Front - Back - Full Stack.
-Esta desarrollado con un front puro y su estructura del portfolio si bien parece un tanto desordenada, lo único que hice fue implementar temas que iba aprendiendo (ejem: al utilizar varios html aprendi la diferencia de estructuras entre la creacion de componentes con react y el front puro de html.) con nombres identificables para una mejor organización y entendimiento.
+
+Esta desarrollado con un front puro y su estructura esta ordenada por una carpeta raíz, una carpeta css con todos los estilos, una carpeta img con todas las imágenes, una carpeta js con todas las funcionalidades en javascript y todo el esqueleto con todas las plantillas en html implementando temas que se aprenden en el día a día.
 
 ---
 
@@ -41,3 +42,6 @@ Tecnologías usadas en el armado del PortFolio:
     └─ ultimosproyectos.html
 
 ```    
+---
+
+## Proyectos vinculados con el Portfolio
