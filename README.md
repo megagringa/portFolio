@@ -45,3 +45,25 @@ Tecnologías usadas en el armado del PortFolio:
 ---
 
 ## Proyectos vinculados con el Portfolio
+
+
+
+|  #  | Stack | Lenguajes |Github| Demo |
+| --- | --- | --- | --- | --- |
+| 1   | Front-End | Bootstrap |[Codeweb101](https://github.com/Codeweb101/CodeWeb101)| [Git](https://codeweb101.github.io/CodeWeb101/index.html) |
+| 2   | Front-End | Bootstrap | [plantilla-Bootstrap](https://github.com/megagringa/plantilla-Bootstrap)| [Plantillas](https://megagringa.github.io/plantilla-Bootstrap/index.html) |
+
+---
+
+| #   | Stack | Lenguajes | Github | Demo |
+|---|---|---|---|---|
+| 1 | Full-Stack | Bootstrap-Java-JDBA | [ControlClientes](https://github.com/megagringa/ControlClientes) | []() |
+
+---
+
+| #   | Cursos | Lenguajes | Github | Demo |
+|---|---|---|---|---|
+| 1 | Full-Stack | Spring-React  | [Egg](https://github.com/megagringa/FullStack_Egg_Curso)  |  |
+| 2 | Full-Stack | HTML-CSS-JS-Node.js | [Acamica](https://github.com/megagringa/FullStack_Acamica) | [Proyectos](https://megagringa.github.io/FullStack_Acamica/index.html) |
+
+
