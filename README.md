@@ -48,14 +48,14 @@ Tecnologías usadas en el armado del PortFolio:
 
 
 
-|  #  | Stack | Lenguajes |Github| Demo |
+|  #  | Proyectos | Lenguajes |Github| Demo |
 | --- | --- | --- | --- | --- |
 | 1   | Front-End | Bootstrap |[Codeweb101](https://github.com/Codeweb101/CodeWeb101)| [Git](https://codeweb101.github.io/CodeWeb101/index.html) |
 | 2   | Front-End | Bootstrap | [plantilla-Bootstrap](https://github.com/megagringa/plantilla-Bootstrap)| [Plantillas](https://megagringa.github.io/plantilla-Bootstrap/index.html) |
 
 ---
 
-| #   | Stack | Lenguajes | Github | Demo |
+| #   | Proyectos | Lenguajes | Github | Demo |
 |---|---|---|---|---|
 | 1 | Full-Stack | Bootstrap-Java-JDBA | [ControlClientes](https://github.com/megagringa/ControlClientes) | []() |
 
