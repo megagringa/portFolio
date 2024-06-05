@@ -118,6 +118,10 @@
     padding-bottom: 20px;
 }
 
+#content a{
+    border-radius: 10px;
+}
+
 #projects {
     display: flex;
     flex-flow: row wrap;
@@ -136,6 +140,7 @@
     margin-right: 25px;
     border: 1px solid var(--box);
 }
+
 
 .project img {
     width: 100%;
