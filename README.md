@@ -38,6 +38,7 @@ Tecnologías usadas en el armado del PortFolio:
     ├─ fullstack.html
     ├─ index.html
     ├─ proyectoscompartidos.html
+    ├─ react.html
     └─ ultimosproyectos.html
 
 ```    
