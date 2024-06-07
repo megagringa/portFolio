@@ -8,27 +8,26 @@
     font-family: sans-serif; 
 }
 
-#container, #about {
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid var(--border);
-    box-shadow: 0px 0px 10px var(--box);
-    background-color: var(--background);
-    border-radius: 5px;
-}
-
 #container {
     width: 90%;
-    min-height: 600px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid var(--border);
+    box-shadow: 0px 0px 10px var(--box);
     margin-top: 40px;
     margin-bottom: 40px;
+    min-height: 600px;
 }
 
 #about {
-    text-align: center; /* Centra todo el contenido horizontalmente */
-    max-width: none; /* Restablece el ancho máximo */
-    border-color: var(--border-2);
+    margin: 50px auto;
+    max-width: 900px;
+    padding: 20px;
+    background-color: var(--background);
+    border: 1px solid var(--border-2);
+    border-radius: 5px;
     box-shadow: 0px 0px 10px var(--shadow);
+    text-align: center; /* Centra todo el contenido horizontalmente */
 }
 
 #about h2 {
@@ -105,10 +104,10 @@
 }
 
 .logo h1 {
-    font-family: inherit;
-    font-style: inherit;
-    font-weight: inherit;
-    font-size: inherit;
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 35px;
 }
 
 /* Estilos del contenido y otros elementos */
