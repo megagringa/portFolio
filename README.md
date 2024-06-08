@@ -33,12 +33,15 @@ Tecnologías usadas en el armado del PortFolio:
     ├─ js
     │   ├─ script.js
     │   └─ theme-toogle.js
-    ├─ bootstrap.html
-    ├─ cursos.html
-    ├─ fullstack.html
+    ├─ fullstack
+    │   ├─ bootstrap.html
+    │   ├─ cursos.html
+    │   ├─ fullstack.html
+    │   ├─ proyectoscompartidos.html
+    │   └─ ultimosproyectos.html
     ├─ index.html
-    ├─ proyectoscompartidos.html
-    └─ ultimosproyectos.html
+    │
+    └─ README.md
 
 ```    
 ---
