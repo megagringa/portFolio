@@ -45,8 +45,9 @@ Tecnologías usadas en el armado del PortFolio:
 
 ```    
 ---
+---
 
-## Proyectos vinculados con el Portfolio
+# Proyectos vinculados con el Portfolio
 
 
 
