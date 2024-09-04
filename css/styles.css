@@ -211,6 +211,21 @@
     color: var(--background--color);
 }
 
+.download-btn{
+    background: linear-gradient(45deg, #ab81b8,#501be2);
+    color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border: none;
+}
+
+.download-btn:hover{
+  color: #2F192E;
+  background: linear-gradient(45deg, #f64cd1,#007ced);
+}
+
 #footer {
     display: flex;
     flex-direction: row wrap;
