@@ -70,3 +70,11 @@ Tecnologías usadas en el armado del PortFolio:
 | 2 | Full-Stack | HTML-CSS-JS-Node.js | [Acamica](https://github.com/megagringa/FullStack_Acamica) | [Proyectos](https://megagringa.github.io/FullStack_Acamica/index.html) |
 
 
+
+---
+Mejorar
+Corregir
+
+---
+
+
