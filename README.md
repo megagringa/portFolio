@@ -72,8 +72,8 @@ Tecnologías usadas en el armado del PortFolio:
 
 
 ---
-Mejorar
-Corregir
+prueba.html
+prueba.css
 
 ---
 
