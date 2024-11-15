@@ -45,8 +45,9 @@ Tecnologías usadas en el armado del PortFolio:
 
 ```    
 ---
+---
 
-## Proyectos vinculados con el Portfolio
+# Proyectos vinculados con el Portfolio
 
 
 
@@ -67,5 +68,13 @@ Tecnologías usadas en el armado del PortFolio:
 |---|---|---|---|---|
 | 1 | Full-Stack | Spring-React  | [Egg](https://github.com/megagringa/FullStack_Egg_Curso)  |  |
 | 2 | Full-Stack | HTML-CSS-JS-Node.js | [Acamica](https://github.com/megagringa/FullStack_Acamica) | [Proyectos](https://megagringa.github.io/FullStack_Acamica/index.html) |
+
+
+
+---
+prueba.html
+prueba.css
+
+---
 
 
