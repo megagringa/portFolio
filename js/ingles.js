@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "Hola, soy Juan Pablo López, un apasionado desarrollador web con experiencia en tecnologías Full Stack.": "Hello, I'm Juan Pablo López, a passionate web developer with experience in Full Stack technologies.",
         "Estoy trabajando en proyectos, desde aplicaciones web hasta sitios interactivos.": "I'm working on projects, from web applications to interactive sites.",
         "Busco oportunidades para aprender y mejorar mis habilidades en el mundo del desarrollo.": "I'm looking for opportunities to learn and improve my skills in the world of development.",
-        "Ahora mismo estoy en busca de mi primer trabajo IT.": "Right now, I'm seeking my first job in IT.",
+        
     };
 
     // Cambiar el idioma
