@@ -212,7 +212,7 @@
 }
 
 .download-btn{
-    background: linear-gradient(45deg, #ab81b8,#501be2);
+    background: linear-gradient(45deg, #ebe3ee,#04010f);
     color: #fff;
     padding: 1rem 3rem;
     border-radius: 30px;
@@ -223,7 +223,7 @@
 
 .download-btn:hover{
   color: #2F192E;
-  background: linear-gradient(45deg, #f64cd1,#007ced);
+  background: linear-gradient(45deg, #04010f,#ebe3ee);
 }
 
 #footer {
