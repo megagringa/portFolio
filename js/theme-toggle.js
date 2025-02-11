@@ -32,5 +32,4 @@ class ThemeToggle {
         }
     }
 }
-
 new ThemeToggle();

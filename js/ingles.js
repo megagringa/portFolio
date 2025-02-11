@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Traducciones
     const translations = {
         "Sobre Mí": "About Me",
-        "Hola, soy Juan Pablo López, un apasionado desarrollador web con experiencia en tecnologías Full Stack.": "Hello, I'm Juan Pablo López, a passionate web developer with experience in Full Stack technologies.",
+        "Hola, soy Juan Pablo López, un desarrollador web con experiencia en tecnologías Full Stack.": "Hello, I'm Juan Pablo López, a web developer with experience in Full Stack technologies.",
         "Busco oportunidades para aprender y mejorar mis habilidades en el mundo del desarrollo.": "I'm looking for opportunities to learn and improve my skills in the world of development.",
         
     };
