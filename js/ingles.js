@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
         "Busco oportunidades para aprender y mejorar mis habilidades en el mundo del desarrollo.": "I'm looking for opportunities to learn and improve my skills in the world of development.",
         
     };
-
     // Cambiar el idioma
     document.getElementById('language-toggle').addEventListener('click', function(event) {
         event.preventDefault(); // Evita el comportamiento predeterminado del enlace
@@ -28,8 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     element.innerText = spanishTranslation; // Traduce al español
                 }
             }
-        });
-
+        });S
         // Cambia el estado y el texto del enlace
         isEnglish = !isEnglish; // Cambia el estado
         document.getElementById('language-toggle').innerText = isEnglish ? "ESPAÑOL" : "INGLES"; // Actualiza el texto del enlace
